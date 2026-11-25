@@ -1,0 +1,122 @@
+{
+ "Engines": {
+  "ffmpeg-skill": "Cut, join, reframe, captions, loudness, export, verify any file. Pairs: video-delivery-specs, caption-animation",
+  "ghost-editor": "Raw talking-head recording to finished vertical reel (19 styles). Pairs: caption-animation, soundtrack",
+  "shorts": "Long video to scored short clips with animated captions. Pairs: caption-animation, video-delivery-specs",
+  "motionclone": "Measure a web animation as numbers, rebuild it, verify the match"
+ },
+ "HyperFrames (HTML to video)": {
+  "hyperframes": "HTML to MP4 render contract: read first for any HyperFrames video",
+  "hyperframes-cli": "Scaffold, check, snapshot, preview, render, history",
+  "hyperframes-registry": "~450 ready blocks: transitions, titles, captions, charts",
+  "media-use": "Music, SFX, images, voiceover, cutouts, grades for HyperFrames",
+  "reverse-any-video": "Rebuild any video as an editable HyperFrames project",
+  "remotion-to-hyperframes": "Port Remotion/Lottie/p5 work into HyperFrames",
+  "style-sampling": "New episode in a proven video style",
+  "slideshow": "Live HyperFrames slide decks",
+  "figma": "Bring Figma frames/brand into a HyperFrames video"
+ },
+ "Remotion (React to video)": {
+  "remotion-best-practices": "Router for all Remotion skills: start here",
+  "remotion-create": "Scaffold a new Remotion video",
+  "remotion-markup": "Content, animation and effects best practices",
+  "remotion-interactivity": "Layers/timing editable in Remotion Studio",
+  "remotion-captions": "Transcribe, display, animate captions",
+  "remotion-multimedia": "Mediabunny: read/convert/edit media",
+  "remotion-maps": "Map animations in Remotion",
+  "remotion-elements": "Ready Remotion elements",
+  "remotion-studio": "Preview in Remotion Studio",
+  "remotion-render": "Export video, still or OpenTimelineIO",
+  "remotion-docs": "Search Remotion docs",
+  "remotion-saas": "Build an app with Remotion",
+  "remotion-upgrade": "Upgrade Remotion packages",
+  "remotion-license": "Licensing and terms",
+  "remotion-video": "Generic React/Remotion to MP4 recipes (iart pack)"
+ },
+ "3D and WebGL": {
+  "threejs-fundamentals": "Scene, camera, renderer, loop",
+  "threejs-geometry": "Shapes, 3D text, instancing, points",
+  "threejs-materials": "PBR, toon, environment response",
+  "threejs-lighting": "Lights, shadows, HDR environments",
+  "threejs-animation": "Keyframes, skeletal, morph, mixers",
+  "threejs-animation-iart": "Hero scenes, R3F, scroll-linked 3D, disposal",
+  "threejs-loaders": "glTF, textures, HDR loading",
+  "threejs-textures": "Texture setup and color space",
+  "threejs-shaders": "ShaderMaterial, TSL",
+  "threejs-postprocessing": "Bloom, DOF, effects",
+  "threejs-performance": "Draw calls, memory, FPS",
+  "threejs-react-three-fiber": "R3F + drei patterns",
+  "threejs-interaction": "Raycasting, controls",
+  "threejs-asset-pipeline": "gltf-transform, Draco, KTX2",
+  "shader-glsl": "Fragment shaders, transitions, SDFs",
+  "particle-system": "Particles, flow fields, confetti"
+ },
+ "Motion craft": {
+  "animation-principles": "Timing, easing, overshoot, stagger",
+  "motion-art-direction": "Tone, pacing, restraint, consistency",
+  "shot-composition": "Grids, safe areas, camera framing",
+  "color-motion": "Palettes, OKLCH gradients, grading, render color",
+  "60fps-animation": "Fix janky CSS/JS animation",
+  "accessible-animation": "prefers-reduced-motion patterns",
+  "micro-interaction": "UI hover/press/toggle motion",
+  "page-transition-animation": "Route and view transitions",
+  "gsap-web": "GSAP, ScrollTrigger, Lenis",
+  "glassmorphism": "Frosted-glass UI motion",
+  "isometric-animation": "2.5D isometric scenes",
+  "motion-background": "Mesh/shader/particle backgrounds",
+  "svg-animation": "Draw-on, morph, motion paths",
+  "lottie-animation": "Lottie/dotLottie integration",
+  "ascii-animation": "ASCII art and terminal motion",
+  "generative-illustration": "AI art + code-driven motion",
+  "javascript-animation": "Canvas frame-by-frame to MP4",
+  "whiteboard-animation": "Hand-drawn whiteboard explainers",
+  "after-effects": "Expressions, export, AE performance"
+ },
+ "Text and captions": {
+  "kinetic-typography": "Headline and lyric text motion",
+  "caption-animation": "Word-timed captions, karaoke, burn-in",
+  "logo-animation": "Logo intros and stingers",
+  "lower-thirds": "Transparent broadcast overlays (WebM alpha/ProRes)",
+  "lower-thirds-tiktok": "Lower-third design and templating guidance"
+ },
+ "Data, diagrams, maps": {
+  "chart-animation": "Bar races, counters, CSV to video",
+  "diagram-animation": "Flowcharts and architecture reveals",
+  "animated-infographic": "Icon/stat sequenced infographics",
+  "map-animation": "Route, zoom, region highlight maps",
+  "manim": "Math animation (3Blue1Brown style)"
+ },
+ "Sound and rhythm": {
+  "soundtrack": "Code-synthesized or supplied music, sync check",
+  "beat-sync-editing": "Cut to BPM, J/L cuts, speed ramps",
+  "audiogram": "Waveform videos from audio"
+ },
+ "Video formats": {
+  "launch-video": "Product hype/sizzle films",
+  "promo-video": "Sale and offer videos",
+  "ad-creative-video": "Ad variants at scale",
+  "product-demo-video": "Screenshots to demo walkthrough",
+  "explainer-video": "Script to storyboard to explainer",
+  "presentation-video": "Deck to narrated video",
+  "testimonial-video": "Quote/review cards",
+  "text-message-animation": "Chat-thread story videos",
+  "short-form-video": "Hook/retention grammar for Reels/Shorts",
+  "youtube-intro-outro": "Channel intros and end screens",
+  "wrapped-video": "Year-in-review style recaps",
+  "photo-slideshow": "Photos to Ken Burns video with music",
+  "countdown-video": "Timers and countdowns",
+  "talking-head": "AI presenter from photos + voice",
+  "talking-head-b-roll": "Add graphics to a talking-head video"
+ },
+ "Business": {
+  "creative-brief": "Turn a vague ask into a sign-off brief",
+  "motion-pricing": "Quote a motion job",
+  "client-revisions": "Revision caps and scope language",
+  "brand-motion-guidelines": "Motion language documents",
+  "video-delivery-specs": "Platform specs and export targets"
+ },
+ "Hub": {
+  "video-studio": "Routes every request to the right skills",
+  "igo-director": "Master director: plan, produce, render, QC, repair, deliver"
+ }
+}

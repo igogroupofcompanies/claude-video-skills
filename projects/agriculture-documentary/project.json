@@ -1,0 +1,9 @@
+{
+ "name": "agriculture-documentary",
+ "created": "2026-11-25T12:17:38",
+ "brand": null,
+ "platform": "youtube",
+ "style": "cinematic",
+ "assets": [],
+ "notes": "Source media in footage/ is never modified; outputs go to renders/ and exports/."
+}

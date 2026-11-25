@@ -1,0 +1,88 @@
+{
+ "file": "social-li45_master_linkedin45.mp4",
+ "verdict": "PASS",
+ "meta": {
+  "file": "social-li45_master_linkedin45.mp4",
+  "duration": 12.0,
+  "bytes": 2080840,
+  "bitrate": 1387226,
+  "video": {
+   "codec": "h264",
+   "w": 1080,
+   "h": 1350,
+   "fps": 30.0,
+   "pix_fmt": "yuv420p",
+   "dur": 12.0
+  },
+  "audio": {
+   "codec": "aac",
+   "rate": 48000,
+   "ch": 1,
+   "dur": 12.0
+  }
+ },
+ "checks": [
+  {
+   "check": "codec",
+   "status": "PASS",
+   "detail": "h264 yuv420p"
+  },
+  {
+   "check": "resolution",
+   "status": "PASS",
+   "detail": "1080x1350 (want 1080x1350)"
+  },
+  {
+   "check": "frame rate",
+   "status": "PASS",
+   "detail": "30.0 (want 30)"
+  },
+  {
+   "check": "bitrate",
+   "status": "PASS",
+   "detail": "1.4 Mb/s (cap 10M)"
+  },
+  {
+   "check": "duration",
+   "status": "PASS",
+   "detail": "12.00s"
+  },
+  {
+   "check": "a/v sync (stream length)",
+   "status": "PASS",
+   "detail": "video-audio length diff 0 ms"
+  },
+  {
+   "check": "audio clipping",
+   "status": "PASS",
+   "detail": "peak -3.9 dBFS"
+  },
+  {
+   "check": "loudness",
+   "status": "PASS",
+   "detail": "-16.2 LUFS (target -16)"
+  },
+  {
+   "check": "black frames",
+   "status": "PASS",
+   "detail": "none"
+  },
+  {
+   "check": "frozen frames",
+   "status": "PASS",
+   "detail": "none"
+  },
+  {
+   "check": "assets",
+   "status": "PASS",
+   "detail": "all present"
+  },
+  {
+   "check": "decode errors",
+   "status": "PASS",
+   "detail": "clean decode"
+  }
+ ],
+ "time": "2026-11-25T12:24:43",
+ "note": "Technical validation only. Visual quality is NOT verified until frames are inspected (use `igo frames`)."
+}

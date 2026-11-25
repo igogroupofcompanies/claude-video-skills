@@ -1,0 +1,9 @@
+{
+ "name": "social-stats-video",
+ "created": "2026-11-25T12:21:43",
+ "brand": null,
+ "platform": "reels",
+ "style": "social",
+ "assets": [],
+ "notes": "Source media in footage/ is never modified; outputs go to renders/ and exports/."
+}

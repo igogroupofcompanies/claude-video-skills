@@ -1,0 +1,88 @@
+{
+ "file": "IGO_Farm_Loans_polished.mp4",
+ "verdict": "WARN",
+ "meta": {
+  "file": "IGO_Farm_Loans_polished.mp4",
+  "duration": 96.033333,
+  "bytes": 118337190,
+  "bitrate": 9858009,
+  "video": {
+   "codec": "h264",
+   "w": 1080,
+   "h": 1920,
+   "fps": 30.0,
+   "pix_fmt": "yuv420p",
+   "dur": 96.033333
+  },
+  "audio": {
+   "codec": "aac",
+   "rate": 48000,
+   "ch": 2,
+   "dur": 96.000187
+  }
+ },
+ "checks": [
+  {
+   "check": "codec",
+   "status": "PASS",
+   "detail": "h264 yuv420p"
+  },
+  {
+   "check": "resolution",
+   "status": "PASS",
+   "detail": "1080x1920 (want 1080x1920)"
+  },
+  {
+   "check": "frame rate",
+   "status": "PASS",
+   "detail": "30.0 (want 30)"
+  },
+  {
+   "check": "bitrate",
+   "status": "PASS",
+   "detail": "9.9 Mb/s (cap 10M)"
+  },
+  {
+   "check": "duration",
+   "status": "PASS",
+   "detail": "96.03s"
+  },
+  {
+   "check": "a/v sync (stream length)",
+   "status": "PASS",
+   "detail": "video-audio length diff 33 ms"
+  },
+  {
+   "check": "audio clipping",
+   "status": "PASS",
+   "detail": "peak -1.3 dBFS"
+  },
+  {
+   "check": "loudness",
+   "status": "PASS",
+   "detail": "-14.0 LUFS (target -14)"
+  },
+  {
+   "check": "black frames",
+   "status": "PASS",
+   "detail": "none"
+  },
+  {
+   "check": "frozen frames",
+   "status": "WARN",
+   "detail": "freeze starts at 40.533333, 64s (ok for intentional holds)"
+  },
+  {
+   "check": "assets",
+   "status": "PASS",
+   "detail": "all present"
+  },
+  {
+   "check": "decode errors",
+   "status": "PASS",
+   "detail": "clean decode"
+  }
+ ],
+ "time": "2026-11-25T13:23:01",
+ "note": "Technical validation only. Visual quality is NOT verified until frames are inspected (use `igo frames`)."
+}

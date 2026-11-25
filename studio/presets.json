@@ -1,0 +1,10 @@
+{
+ "youtube":   {"label":"YouTube 16:9 1080p","w":1920,"h":1080,"fps":30,"crf":18,"vmax":"16M","abr":"192k","lufs":-14},
+ "youtube4k": {"label":"YouTube 16:9 4K","w":3840,"h":2160,"fps":30,"crf":17,"vmax":"45M","abr":"256k","lufs":-14},
+ "shorts":    {"label":"YouTube Shorts 9:16","w":1080,"h":1920,"fps":30,"crf":18,"vmax":"12M","abr":"192k","lufs":-14},
+ "reels":     {"label":"Instagram Reels 9:16","w":1080,"h":1920,"fps":30,"crf":18,"vmax":"10M","abr":"192k","lufs":-14},
+ "ig45":      {"label":"Instagram feed 4:5","w":1080,"h":1350,"fps":30,"crf":18,"vmax":"10M","abr":"192k","lufs":-14},
+ "linkedin":  {"label":"LinkedIn 16:9","w":1920,"h":1080,"fps":30,"crf":18,"vmax":"12M","abr":"192k","lufs":-16},
+ "linkedin45":{"label":"LinkedIn 4:5","w":1080,"h":1350,"fps":30,"crf":18,"vmax":"10M","abr":"192k","lufs":-16},
+ "corporate": {"label":"Corporate presentation 16:9","w":1920,"h":1080,"fps":30,"crf":16,"vmax":"20M","abr":"256k","lufs":-16}
+}

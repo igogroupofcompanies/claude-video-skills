@@ -1,0 +1,1 @@
+Placeholder content: generated visuals and synthetic audio, not real footage. Narration is macOS `say`; subtitles are Whisper output, soft track + sidecar SRT.

@@ -1,0 +1,9 @@
+{
+ "name": "agriculture-real",
+ "created": "2026-11-25T12:45:07",
+ "brand": "igo",
+ "platform": "youtube",
+ "style": "cinematic",
+ "assets": [],
+ "notes": "Source media in footage/ is never modified; outputs go to renders/ and exports/."
+}

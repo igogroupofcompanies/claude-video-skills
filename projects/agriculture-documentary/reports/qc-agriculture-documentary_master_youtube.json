@@ -1,0 +1,93 @@
+{
+ "file": "agriculture-documentary_master_youtube.mp4",
+ "verdict": "PASS",
+ "meta": {
+  "file": "agriculture-documentary_master_youtube.mp4",
+  "duration": 14.0,
+  "bytes": 29521781,
+  "bitrate": 16869589,
+  "video": {
+   "codec": "h264",
+   "w": 1920,
+   "h": 1080,
+   "fps": 30.0,
+   "pix_fmt": "yuv420p",
+   "dur": 13.9
+  },
+  "audio": {
+   "codec": "aac",
+   "rate": 48000,
+   "ch": 1,
+   "dur": 14.0
+  }
+ },
+ "checks": [
+  {
+   "check": "codec",
+   "status": "PASS",
+   "detail": "h264 yuv420p"
+  },
+  {
+   "check": "resolution",
+   "status": "PASS",
+   "detail": "1920x1080 (want 1920x1080)"
+  },
+  {
+   "check": "frame rate",
+   "status": "PASS",
+   "detail": "30.0 (want 30)"
+  },
+  {
+   "check": "bitrate",
+   "status": "PASS",
+   "detail": "16.9 Mb/s (cap 16M)"
+  },
+  {
+   "check": "duration",
+   "status": "PASS",
+   "detail": "14.00s"
+  },
+  {
+   "check": "a/v sync (stream length)",
+   "status": "PASS",
+   "detail": "video-audio length diff 100 ms"
+  },
+  {
+   "check": "audio clipping",
+   "status": "PASS",
+   "detail": "peak -1.5 dBFS"
+  },
+  {
+   "check": "loudness",
+   "status": "PASS",
+   "detail": "-15.2 LUFS (target -14)"
+  },
+  {
+   "check": "black frames",
+   "status": "PASS",
+   "detail": "none"
+  },
+  {
+   "check": "frozen frames",
+   "status": "PASS",
+   "detail": "none"
+  },
+  {
+   "check": "subtitles",
+   "status": "PASS",
+   "detail": "4 cues; bad timing []; overlaps []"
+  },
+  {
+   "check": "assets",
+   "status": "PASS",
+   "detail": "all present"
+  },
+  {
+   "check": "decode errors",
+   "status": "PASS",
+   "detail": "clean decode"
+  }
+ ],
+ "time": "2026-11-25T12:21:43",
+ "note": "Technical validation only. Visual quality is NOT verified until frames are inspected (use `igo frames`)."
+}

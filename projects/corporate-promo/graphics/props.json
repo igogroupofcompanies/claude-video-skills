@@ -1,0 +1,55 @@
+{
+ "width": 1920,
+ "height": 1080,
+ "fps": 30,
+ "sceneSeconds": 3.5,
+ "brand": {
+  "primary": "#0B5D3B",
+  "secondary": "#E8C77A",
+  "ink": "#08140E",
+  "paper": "#FFFFFF",
+  "wordmark": "IGO GROUP"
+ },
+ "scenes": [
+  {
+   "type": "title",
+   "text": "Growing together, from the ground up",
+   "sub": "Corporate promotional film (sample)"
+  },
+  {
+   "type": "stats",
+   "heading": "Sample figures, replace with approved data",
+   "items": [
+    {
+     "value": 25,
+     "suffix": "+",
+     "label": "Years of experience"
+    },
+    {
+     "value": 12000,
+     "suffix": "+",
+     "label": "Farmers served"
+    },
+    {
+     "value": 8,
+     "label": "Business verticals"
+    }
+   ]
+  },
+  {
+   "type": "quote",
+   "text": "Technology and trust, delivered to every farm.",
+   "by": "Leadership message (placeholder)"
+  },
+  {
+   "type": "title",
+   "text": "One group. Many ways to grow.",
+   "sub": "Partnerships built on trust"
+  },
+  {
+   "type": "outro",
+   "text": "Thank you",
+   "sub": "www.example.com"
+  }
+ ]
+}

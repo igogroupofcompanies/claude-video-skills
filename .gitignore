@@ -1,0 +1,12 @@
+node_modules
+.DS_Store
+*.aiff
+projects/*/renders/
+projects/*/exports/
+projects/*/audio/
+projects/*/images/
+projects/*/previews/
+brands/*/assets/
+brands/*/brand.json
+__pycache__/
+projects/*/logs/

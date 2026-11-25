@@ -1,0 +1,45 @@
+{
+ "width": 1080,
+ "height": 1350,
+ "fps": 30,
+ "sceneSeconds": 3,
+ "brand": {
+  "primary": "#0B5D3B",
+  "secondary": "#FFD166",
+  "ink": "#06140E",
+  "paper": "#FFFFFF",
+  "wordmark": "IGO GROUP"
+ },
+ "scenes": [
+  {
+   "type": "title",
+   "text": "Did you know?",
+   "sub": "Sample social video"
+  },
+  {
+   "type": "stats",
+   "heading": "Placeholder statistics",
+   "items": [
+    {
+     "value": 70,
+     "suffix": "%",
+     "label": "Of rural families depend on farming"
+    },
+    {
+     "value": 3,
+     "suffix": "x",
+     "label": "Yield gain with better soil care"
+    }
+   ]
+  },
+  {
+   "type": "quote",
+   "text": "Small changes in the soil make big changes in the harvest."
+  },
+  {
+   "type": "outro",
+   "text": "Follow for more",
+   "sub": "@yourhandle"
+  }
+ ]
+}
