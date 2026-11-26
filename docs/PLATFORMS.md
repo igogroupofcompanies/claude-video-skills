@@ -26,6 +26,9 @@ bash install-all.sh
 python3 studio/tests/test_studio.py
 ```
 MotionClone's browser may need system libraries: `sudo npx playwright install-deps chromium`.
+Add `~/.local/bin` to `PATH` so `yt-dlp` is found.
+
+**Installer test result (Debian 12 container, arm64, Node 24):** 11 of 12 steps passed. Ghost Editor failed only because 2 of 78 sound-effect downloads failed (network); re-running `bash install-all.sh` retries just the missing files.
 
 ## Windows setup (WSL2)
 
